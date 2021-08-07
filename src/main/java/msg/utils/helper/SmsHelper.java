@@ -44,25 +44,5 @@ public class SmsHelper {
 			e.printStackTrace();
 		}
 	}
-//	DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAIDkhHxTLovqCW", "BB2af4W8di3ZOOPyEqfLwPc18RgCS5");
-//	IAcsClient client = new DefaultAcsClient(profile);
-//	CommonRequest request = new CommonRequest();
-//		request.setMethod(MethodType.POST);
-//		request.setDomain("dysmsapi.aliyuncs.com");
-//		request.setVersion("2017-05-25");
-//		request.setAction("SendSms");
-//		request.putQueryParameter("RegionId", "cn-hangzhou");
-//		request.putQueryParameter("PhoneNumbers", "13566250964,18229538194");
-//		request.putQueryParameter("SignName", "402管理系统");
-//		request.putQueryParameter("TemplateCode", "SMS_172743070");
-//		request.putQueryParameter("TemplateParam", "{\"timeBegin\":\"2019年8月22日\",\"timeEnd\":\"2019年8月22日\"}");
-//		try {
-//		CommonResponse response = client.getCommonResponse(request);
-//		System.out.println(response.getData());
-//	} catch (ServerException e) {
-//		e.printStackTrace();
-//	} catch (ClientException e) {
-//		e.printStackTrace();
-//	}
 
 }
